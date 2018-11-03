@@ -4,3 +4,7 @@ function driversWithRevenueOver(drivers,revenue){
 }
 // [1, 2, 3, 4, 5].filter(function (num) { return num > 3; });
 // // => [4, 5]
+function driverNamesWithRevenueOver()(drivers){
+  return drivers.filter(function(driver.name){
+    return driver.revenue > 2000 })
+}
