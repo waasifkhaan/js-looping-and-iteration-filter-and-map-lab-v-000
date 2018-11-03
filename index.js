@@ -4,6 +4,12 @@ function driversWithRevenueOver(drivers,revenue){
 }
 // [1, 2, 3, 4, 5].filter(function (num) { return num > 3; });
 // // => [4, 5]
+function driverNamesWithRevenueOver (drivers, revenue) {
+  return driversWithRevenueOver(drivers, revenue)
+    .map(function (driver) {
+      return driver.name;
+    });
+}
 
 
 function exactMatch(drivers,{key: value}){
